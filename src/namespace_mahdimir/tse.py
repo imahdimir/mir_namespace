@@ -90,3 +90,19 @@ class CodalMonthlySalesFirmType :
     r = "RealEstate"
     a = "Agriculture"
     f = "Financing"
+
+class DInsIndCols :
+    bdc = 'Buy-Ind-Count'
+    bsc = 'Buy-Ins-Count'
+    sdc = 'Sell-Ind-Count'
+    ssc = 'Sell-Ins-Count'
+
+    bdv = 'Buy-Ind-Vol'
+    bsv = 'Buy-Ins-Vol'
+    sdv = 'Sell-Ind-Vol'
+    ssv = 'Sell-Ins-Vol'
+
+    bdva = 'Buy-Ind-Val'
+    bsva = 'Buy-Ins-Val'
+    sdva = 'Sell-Ind-Val'
+    ssva = 'Sell-Ins-Val'
