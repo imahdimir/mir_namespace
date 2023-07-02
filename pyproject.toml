@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "mir_namespace"
 version = "0.0.0"
 authors = [{ name = "Mahdi Mir", email = "imahdimir@gmail.com" }]
-description = "TSE data Namespace"
+description = "Some Namespaces for Python"
 readme = "README.md"
 license = { file = "LICENSE" }
 dependencies = [
