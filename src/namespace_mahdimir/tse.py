@@ -30,6 +30,7 @@ class Col :
     tedpix_ret = "TEDPIX-Return"
     tedpix_exss_ret = "TEDPIX-Excess-Return"
     exss_ret = "Excess-Return"
+    get_date = 'GetDate'
 
 class CodalCol :
     TracingNo = "TracingNo"
