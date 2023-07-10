@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "namespace_mahdimir"
-version = "0.1.2"
+version = "1.0.0"
 authors = [{ name = "Mahdi Mir", email = "imahdimir@gmail.com" }]
 description = "Some Namespaces for Python"
 readme = "README.md"
