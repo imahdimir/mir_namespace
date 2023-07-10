@@ -6,7 +6,7 @@ my_github_username = "imahdimir"
 m = my_github_username + "/"
 
 class GitHubDataUrl :
-    ind_ins = "u-d-Ind-Ins"
+    ind_ins = "d-Ind-Ins"
     id_2_tic = 'd-TSETMC_ID-2-Ticker'
     adj_ret = 'd-Adjusted-Returns'
     rf = 'd-Iran-RiskFree-Rate-Monthly'
