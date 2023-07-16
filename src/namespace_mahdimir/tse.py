@@ -31,6 +31,8 @@ class Col :
     tedpix_exss_ret = "TEDPIX-Excess-Return"
     exss_ret = "Excess-Return"
     get_date = 'GetDate'
+    val = 'Value'
+    trd_count = 'TradeCount'
 
 class CodalCol :
     TracingNo = "TracingNo"
@@ -108,5 +110,21 @@ class DIndInsCols :
     sdva = 'Sell-Ind-Val'
     ssva = 'Sell-Ins-Val'
 
-class DNominalPrice :
-    pass
+class DNomPriceCol :
+    _c = Col()
+
+    ftic = _c.ftic
+    tse_id = _c.tse_id
+    d = _c.d
+    jd = _c.jd
+
+    # order as tsetmc.com
+    nhi = 'NomHigh'
+    nlo = 'NomLow'
+    nclos = 'NomClose'
+    nlst = 'NomLast'
+    nopn = 'NomOpen'
+    nystrd = 'NomYesterdayClose'
+    val = 'Value'
+    vol = 'Volume'
+    trd_count = 'TradeCount'
