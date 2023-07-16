@@ -92,7 +92,7 @@ class CodalMonthlySalesFirmType :
     a = "Agriculture"
     f = "Financing"
 
-class DInsIndCols :
+class DIndInsCols :
     bdc = 'Buy-Ind-Count'
     bsc = 'Buy-Ins-Count'
     sdc = 'Sell-Ind-Count'
@@ -107,3 +107,6 @@ class DInsIndCols :
     bsva = 'Buy-Ins-Val'
     sdva = 'Sell-Ind-Val'
     ssva = 'Sell-Ins-Val'
+
+class DNominalPrice :
+    pass
