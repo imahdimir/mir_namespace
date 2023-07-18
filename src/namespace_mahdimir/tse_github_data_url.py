@@ -18,6 +18,7 @@ class GitHubDataUrl :
     tedpix = 'TEDPIX'
     nom_price = 'Nominal-Price'
     id_2_ftic = 'TSETMC_ID-2-FirmTicker'
+    os = 'Outstanding-Shares'
 
     def __init__(self) :
         for ky , vl in vars(GitHubDataUrl).items() :
