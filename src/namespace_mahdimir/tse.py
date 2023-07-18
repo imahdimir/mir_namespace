@@ -113,6 +113,7 @@ class DIndInsCols :
 class DNomPriceCol :
     _c = Col()
 
+    # cols from Col
     ftic = _c.ftic
     tse_id = _c.tse_id
     d = _c.d
@@ -128,3 +129,15 @@ class DNomPriceCol :
     val = 'Value'
     vol = 'Volume'
     trd_count = 'TradeCount'
+
+class DOutstandingShares :
+    _c = Col()
+
+    # cols from Col
+    ftic = _c.ftic
+    tse_id = _c.tse_id
+    d = _c.d
+    jd = _c.jd
+
+    # others
+    os = 'OutstandingShares'
