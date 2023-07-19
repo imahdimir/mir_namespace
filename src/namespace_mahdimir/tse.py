@@ -130,7 +130,7 @@ class DNomPriceCol :
     vol = 'Volume'
     trd_count = 'TradeCount'
 
-class DOutstandingSharesCol :
+class D0OutstandingSharesCol :
     _c = Col()
 
     # cols from Col
@@ -141,3 +141,14 @@ class DOutstandingSharesCol :
 
     # others
     os = 'OutstandingShares'
+
+class DOutstandingSharesCol :
+    _c = Col()
+    _cd = D0OutstandingSharesCol()
+
+    # cols from Col
+    ftic = _c.ftic
+    d = _c.d
+    jd = _c.jd
+
+    os = _cd.os
