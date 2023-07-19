@@ -20,6 +20,7 @@ class GitHubDataUrl :
     id_2_ftic = 'TSETMC_ID-2-FirmTicker'
     os0 = '0-Outstanding-Shares'
     os = 'Outstanding-Shares'
+    mktcap = 'MarketCap'
 
     def __init__(self) :
         for ky , vl in vars(GitHubDataUrl).items() :
