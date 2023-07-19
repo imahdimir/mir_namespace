@@ -33,6 +33,7 @@ class Col :
     get_date = 'GetDate'
     val = 'Value'
     trd_count = 'TradeCount'
+    mktcap = 'MarketCap'
 
 class CodalCol :
     TracingNo = "TracingNo"
@@ -152,3 +153,12 @@ class DOutstandingSharesCol :
     jd = _c.jd
 
     os = _cd.os
+
+class DMarketCap :
+    _c = Col()
+
+    # cols from Col
+    ftic = _c.ftic
+    d = _c.d
+    jd = _c.jd
+    mkcap = _c.mktcap
