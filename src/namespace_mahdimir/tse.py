@@ -1,6 +1,7 @@
 class Col :
     jd = "JDate"
     jm = "JMonth"
+    jyr = "JYear"
     tse_id = "TSETMC-ID"
     tic = "Ticker"
     btic = "BaseTicker"
