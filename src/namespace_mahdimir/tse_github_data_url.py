@@ -21,6 +21,7 @@ class GitHubDataUrl :
     os0 = '0-Outstanding-Shares'
     os = 'Outstanding-Shares'
     mktcap = 'MarketCap'
+    tsetmc_adjclose_lin = 'TSETMC-AdjClose-linearly-filled'
 
     def __init__(self) :
         for ky , vl in vars(GitHubDataUrl).items() :

@@ -14,6 +14,7 @@ class Col :
     alow = "AdjLow"
     aopen = "AdjOpen"
     aclose = "AdjClose"
+    aclose_lin = 'AdjClose-LinearlyFilled'
     vol = "Volume"
     alast = "AdjLast"
     is_tse_open = "Is-TSE-Open"
